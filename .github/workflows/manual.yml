@@ -1,7 +1,7 @@
 name: Manual
 on:
-  workflow_dispatch:  # 手動実行イベント
-    inpuths:
+  workflow_dispatch: # 手動実行イベント
+    inputs:
       greeting:
         type: string
         default: Hello
